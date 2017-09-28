@@ -1,7 +1,6 @@
 [
     {
         "user_id": 1,
-        "user_fullname": "Ryan Grey",
         "quest_paths": [
             {
                 "order": 0,
@@ -44,7 +43,6 @@
     },
     {
         "user_id": 2,
-        "user_fullname": "Jacqueline Myers",
         "quest_paths": [
             {
                 "order": 0,
@@ -75,7 +73,6 @@
     },
     {
         "user_id": 3,
-        "user_fullname": "Henry Bloggs",
         "quest_paths": [
             {
                 "order": 0,
@@ -105,7 +102,6 @@
     },
     {
         "user_id": 4,
-        "user_fullname": "Michael McManns",
         "quest_paths": [
             {
                 "order": 0,
@@ -135,7 +131,6 @@
     },
     {
         "user_id": 5,
-        "user_fullname": "Vanessa Riley",
         "quest_paths": [
             {
                 "order": 0,
