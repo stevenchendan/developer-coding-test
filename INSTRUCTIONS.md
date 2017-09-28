@@ -1,32 +1,37 @@
-# Full Stack Developer Coding Test
+# myEd Developer Coding Challenge
 
-This repository contains a static JSON file, which represents the relationship between students and their "quest" (learning module) completions in myEd.
+This is coding challenge for potential recruits to myEd.  It should take about 2 hours, though feel free to spend more or less time as you see fit.
 
-Your task is to build a basic front end that clearly displays students with their quests, completion data and marks, powered by an API back end on top of a database.
+## Background
 
-You must seed a database with the JSON data. You may use whatever database technology you'd like.
+myEd provides an app that lets teachers send out work (“quests”) to students in a personalised way.  Rather than a “one sized fits all” approach where every student gets the same work at the same time, we focus on individualising the learning pathway for each student, so the are given work that is right for their interests and their skill level.
 
-This project should take no more than 2 hours, but feel free to spend more time on it and be creative in your solution.
+## The task
 
-## The API
-
-The API must implement the following endpoint:
-
-* **GET** */route_name_here*
-    - This endpoint returns the list of students with their quests and completion data for each quest.
-
-## Getting Started
-To get started, we recommend you start by setting up a HTTP backend that serves the data from the JSON file.
-
----
+This repository contains a static JSON file, which represents the work that has been sent to students in a particular class.  Your task is to build a basic front end that clearly displays this information in a way which would be easy for a teacher to take in.
 
 ## Requirements
 
-- Be creative in your solution
-- Include any README notes or explanations
-- We don't expect a polished application, but a project that focusses on showcasing your skills
+* You must load the JSON file with a HTTP request, as if it were coming from an API server.
+* The page must display all students, their individual quests, and the completion percentage and mark percentage (if available) for each quest.
+* Include any instructions needed for how to compile or run your project.
 
-## Suggestions
-- Containerise part or all of the application in Docker
-- Use a language you find interesting or have always wanted to try
-- Focus on the area that most showcases your ability
+
+## Recommendations
+
+We suggest you start by setting up an HTTP server that will serve up these JSON files upon request. Once you’ve got the API available, use whatever client-side libraries or frameworks you like to build the application that consumes it.
+
+* Be creative in considering how you might display the results.
+* Feel free to use frameworks and libraries, but keep in mind that we are looking for something that demonstrates that you can write good code, not just wire up a framework.
+* We like tests.
+
+Beyond meeting the requirements above, it’s up to you where you want to focus. We’re happy for you to focus on whatever areas you feel best showcase your skills.  Ideas might include working on a responsive UI, adding some interaction, or implementing developer tooling like Webpack, Docker, etc.  
+
+## Submitting your solution
+
+We recommend cloning this repository and creating a new branch in Git, and committing your changes on that branch.  When you have finished, push your changes, and open a pull request.  
+
+The repository is private so your work will not be visible on your public profile.
+
+
+We’re looking forward to your innovative solutions!
